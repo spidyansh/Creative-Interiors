@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.carousel-item{
+  transition: transform 1s ease, opacity .5s ease-out
+}
+.form{
+  width: 400px;
+  height: 250px;
+  border: 2px solid black;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  z-index: 1;
+}
+.home{
+  background-image: url("./Images/interior1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.choose{
+  background-image: url("Images/choosebg.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.choose h2{
+  position: absolute;
+  left: 50%;
+  color: white;
+}
+.chooseoption{
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  margin: 28px 52px 36px 28px;
+  height: 12vh;
+  padding-top: 15px;
+}
+.chooseoption svg{
+  font-size: 30px;
+}
+.chooseoptiondiv{
+  position: absolute;
+  left: 12%;
+}
