@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Portfolio from './Components/Portfolio';
+import Quote from './Components/Quote';
 
 function App() {
   return (

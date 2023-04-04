@@ -14,7 +14,7 @@ export default function Portfolio(props) {
   return (
     <>
       <div className="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 className="display-4 fw-normal">Our Portfolio</h1>
+        <h1 className="display-4 fw-normal">Our Gallery</h1>
       </div>
       <div className="portfoliomain row row-cols-3 mx-5">
         <Portfolioimages img={p1} />

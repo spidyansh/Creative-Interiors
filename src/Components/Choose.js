@@ -5,7 +5,7 @@ export default function Choose() {
     <>
       <div className="choose position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
         <div className="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 className="display-4 fw-normal">Why choose us</h1>
+          <h1 className="display-4 fw-normal" style={{color:"white"}}>Why choose us</h1>
 
           <div
             class="container text-center"

@@ -31,6 +31,7 @@ export default function Home() {
         <Heroform/>
       </div> */}
       <div className="home">
+        
 <Heroform/>
       </div>
     </>

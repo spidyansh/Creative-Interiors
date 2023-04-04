@@ -8,14 +8,11 @@ export default function Category() {
   return (
     <>
   <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
-    <div className="col-md-5 p-lg-5 mx-auto my-5">
+    <div className="col-md-5 p-lg-5 mx-auto my-3">
       <h1 className="display-4 fw-normal">What we offer</h1>
       <p className="lead fw-normal">
       We specialize in interior fit-out work for retail, commercial and residential spaces through modern interior design techniques and turn-key execution.
       </p>
-      <a className="btn btn-outline-secondary" href="#">
-        Coming soon
-      </a>
     </div>
     <div className="product-device shadow-sm d-none d-md-block" />
     <div className="product-device product-device-2 shadow-sm d-none d-md-block" />
