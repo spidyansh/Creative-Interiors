@@ -1,7 +1,8 @@
-
 .App {
   text-align: center;
   overflow: hidden;
+  list-style: none;
+  text-decoration: none;
 }
 
 .App-logo {
@@ -38,83 +39,110 @@
     transform: rotate(360deg);
   }
 }
-.carousel-item{
-  transition: transform 1s ease, opacity .5s ease-out
+.carousel-item {
+  transition: transform 1s ease, opacity 0.5s ease-out;
 }
-.mainform{
+.mainform {
   width: 450px;
-  height: 460px;
+  height: 360px;
   /* border: 2px solid black; */
-  background-color: rgba(70, 61, 61,0.6);
-  position: absolute;
-  right: 10%;
-  top: 25%;
+  background-color: rgba(70, 61, 61, 0.6);
+  position: relative;
+  left: 60%;
+  top: 7%;
   z-index: 1;
   padding: 20px 20px 20px 20px;
   border-radius: 30px;
 }
-.herocontent{
+.herocontent {
   width: 700px;
   height: 150px;
   /* border: 2px solid black; */
-  background-color: rgba(70, 61, 61,0.5);
-  position: absolute;
+  background-color: rgba(233, 220, 220, 0.5);
+  position: relative;
   left: 7%;
-  top: 50%;
+  top: 40%;
   z-index: 1;
   padding: 20px 20px 20px 20px;
   border-radius: 30px;
   color: white;
 }
-.home{
+.heroheading {
+  color: rgb(247, 5, 54);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Satisfy", cursive;
+}
+.home {
   background-image: url("./Images/interior1.jpg");
   background-size: cover;
   width: 100vw;
   height: 100vh;
 }
-.choose{
+.choose {
   background-image: url("Images/choosebg.jpg");
-  background-size: cover;
+  background-size: contain;
   width: 100vw;
   height: 100vh;
 }
-.choose h2{
+.choose h2 {
   position: absolute;
   left: 50%;
   color: white;
 }
-.chooseoption{
+.chooseoption {
   border: 2px solid white;
   border-radius: 20px;
   color: white;
   font-size: 30px;
   margin: 28px 52px 36px 28px;
+  background-color: rgba(108, 104, 104, 0.25);
   height: 16vh;
   padding-top: 15px;
+  font-weight: 700;
 }
-.chooseoption svg{
+.chooseoption svg {
   font-size: 30px;
 }
-.chooseoptiondiv{
+.chooseoptiondiv {
   position: absolute;
   left: 12%;
 }
-.mainfooter{
+.mainfooter {
   color: white;
 }
-.quote{
-  background-image: url("Images/p3.jpg");
+.quote {
+  background-image: url("Images/quotebg.jpg");
   background-size: cover;
   width: 100vw;
   height: 100vh;
   z-index: -1;
 }
-.quoteform{
-  width: 400px;
-  height: 250px;
-  border: 2px solid black;
-  position: absolute;
-  right: 10%;
-  top: 40%;
+.quoteform {
+  width: 750px;
+  height: 450px;
+  background-color: rgba(70, 61, 61, 0.6);
+  position: relative;
+  left: 25%;
+  top: 20%;
   z-index: 1;
+  padding: 20px 20px 20px 20px;
+  border-radius: 30px;
+}
+.btn-connect-interior {
+  border: 1px solid rgb(22, 183, 22);
+  background-color: rgb(22, 183, 22);
+  color: white;
+  text-decoration: none;
+}
+.btn-connect-interior:hover {
+  background-color: rgba(154, 245, 17, 0.829);
+  color: black;
+}
+.nav-item:hover {
+  border-radius: 20px;
+  background-color: rgb(237, 231, 231);
+  font-size: 16.5px;
 }

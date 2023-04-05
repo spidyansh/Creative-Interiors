@@ -31,8 +31,14 @@ export default function Home() {
         <Heroform/>
       </div> */}
       <div className="home">
-        
-<Heroform/>
+        <div className="herocontent">
+          <h2 className="heroheading">Dream homes begin with dream designs</h2>{" "}
+          <br />
+          <h5 style={{ textAlign: "center" }}>
+            Affordable prices | Easy EMI | Unique Designs
+          </h5>
+        </div>
+        <Heroform />
       </div>
     </>
   );
