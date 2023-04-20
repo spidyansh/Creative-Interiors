@@ -14,10 +14,10 @@ import Quote from "./Quote";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary" >
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary py-3" style={{fontSize:"18px"}} >
+        <div className="container">
           <Link to="/">
-            <a className="navbar-brand">INTERIAZ</a>
+            <a className="navbar-brand fw-bold fs-4">INTERIAZ</a>
           </Link>
           <button
             className="navbar-toggler"
@@ -31,7 +31,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav mx-auto">
               <li className="nav-item">
                 <Link to="/">
                   <a className="nav-link navtext active ">Home</a>
